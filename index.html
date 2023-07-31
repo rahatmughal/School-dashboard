@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width" name="viewport">
+    <link href="./Images/hide-logo.png" rel="shortcut icon" type="image/x-icon">
+    <title>Mount Carmel School</title>
+    <script src="https://kit.fontawesome.com/7323498a62.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="main-header">
+            <nav class="navbar">
+                <div class="navbar-logo" id="navbar-logo">
+                    <img src="./Images/logo.png" class="desktop" alt="Mount Carmel School" id="logo" />
+                    <img src="./Images/mini-logo.png" class="desktop" alt="Mount Carmel School" id="logo-mini" />
+                    <img src="./Images/logo.png" class="mob" alt="Mount Carmel School" id="logo-mob" />
+                </div>
+                <div class="navbar-right">
+                    <div class="navbar-toggle" onclick="toggleSidebar()">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <div class="navbar-heading">Mount Carmel School</div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="sidebar" id="alert2">
+            <section class="sidebar-container" id="sibe-box">
+                <div class="sidebar-heading">
+                    <a href="#">
+                        <span>Current Session: 2023-24</span>
+                        <i class='fas fa-angle-right active'></i>
+                    </a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="treeview" onclick="toggleFrontOffice()">
+                        <a href="#">
+                            <div class="list-item">
+                                <div class="flex">
+                                    <i class="fa fa-ioxhost ftlayer active"></i>
+                                    <span>Front Office</span>
+                                </div>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </div>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Admission Enquiry</a></li>
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Visitor Book</a></li>
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Phone Call Log</a></li>
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Postal Dispatch</a></li>
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Postal Receive</a></li>
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Complain</a></li>
+                            <li class=""><a href="#"><i class="fa fa-angle-double-right"></i>Setup Front Office</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
