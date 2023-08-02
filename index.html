@@ -8,7 +8,7 @@
     <link href="./Images/hide-logo.png" rel="shortcut icon" type="image/x-icon">
     <title>Mount Carmel School</title>
     <script src="https://kit.fontawesome.com/7323498a62.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -21,15 +21,50 @@
                     <img src="./Images/mini-logo.png" class="desktop" alt="Mount Carmel School" id="logo-mini" />
                     <img src="./Images/logo.png" class="mob" alt="Mount Carmel School" id="logo-mob" />
                 </div>
-                <div class="navbar-right">
-                    <div class="navbar-toggle" onclick="toggleSidebar()">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+
+                <div class="navbar-right space-between">
+                    <div class="navbar-right">
+                        <div class="navbar-toggle" onclick="toggleSidebar()">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </div>
+                        <div class="navbar-heading">Mount Carmel School</div>
                     </div>
-                    <div class="navbar-heading">Mount Carmel School</div>
+
+                    <div class="top-box">
+                        <div class="user-profile">
+                            <img src="./Images/user.png" class="user-img" alt="user avatar">
+                            <div class="user-info">
+                                <p class="user-name mb-0">Pauline Seitz</p>
+                                <p class="designation mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-user"></i><span>Profile</span></a></li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-cog"></i><span>Settings</span></a></li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-home-circle"></i><span>Dashboard</span></a></li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-dollar-circle"></i><span>Earnings</span></a></li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-download"></i><span>Downloads</span></a></li>
+                                <li>
+                                    <div class="dropdown-divider mb-0"></div>
+                                </li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-log-out-circle"></i><span>Logout</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
             </nav>
+
+
         </header>
 
         <div class="sidebar" id="alert2">
@@ -67,7 +102,8 @@
     </div>
 
 
-    <script src="main.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
